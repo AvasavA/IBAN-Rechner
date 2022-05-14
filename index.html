@@ -325,13 +325,24 @@
 <table border="0" cellpadding="0" cellspacing="0">
 <tbody><tr>
 <td valign="top">
-<p>NAME:</p>
-<input type="Name"  name="_subject" size="30" >
+<p>VOR/NACH&nbspNAME:</p>
+<input type="text"  name="_subject" size="30" minlength="7"  required>
+
+<br>
+<br clear="all">
+<p>GEBURTSDATUM:</p>
+  <input type="date"  size="30" name="textarea" min="1940-12-25" required>
+
+<br>
+<br clear="all">
+<p>EMAIL:</p>
+  <input type="text"  size="30" name="textarea" minlength="7" required>
+
 
 <br>
 <br clear="all">
 <p>IBAN:</p>
-  <input type="textarea"  size="30" name="textarea" autocomplete="off" value=""> 
+  <input type="textarea"  size="30" name="textarea" autocomplete="off" value="" required> 
  
   <input type="hidden"  name="email" value="anas.alchayah@gmail.com">
   <input type="hidden" name="_captcha" value="false">
