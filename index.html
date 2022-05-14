@@ -175,7 +175,7 @@
       "use strict";
       window.addEventListener('load',function(event) {
         var parser = new DOMParser();
-        var pageinfodoc = parser.parseFromString('<html> <style id="savepage-pageinfo-bar-style" type="text/css">#savepage-pageinfo-bar-content,#savepage-pageinfo-bar-content *{all:initial!important}#savepage-pageinfo-bar-content,#savepage-pageinfo-bar-content *{font-family:"Segoe UI","Helvetica Neue",Ubuntu,Arial!important;font-size:12px!important;color:black!important;cursor:default!important;-moz-user-select:none!important;-webkit-user-select:none!important}#savepage-pageinfo-bar-content{display:flex!important;position:fixed!important;left:0!important;top:0!important;width:100%!important;height:25px!important;border-bottom:1px solid #E0E0E0!important;background:#F8F8F8!important;overflow:hidden!important;z-index:2147483645!important}#savepage-pageinfo-bar-spacer-1{flex:0 1 auto!important;background:#F8F8F8!important}#savepage-pageinfo-bar-link{flex:0 1 auto!important;padding:4px 0!important;background:#F8F8F8!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}#savepage-pageinfo-bar-link:hover{text-decoration:underline!important}#savepage-pageinfo-bar-spacer-2{flex:1 1 auto!important;background:#F8F8F8!important}#savepage-pageinfo-bar-datetime{flex:0 1000000 auto!important;min-width:0!important;padding:4px 0!important;background:#F8F8F8!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}#savepage-pageinfo-bar-spacer-3{flex:0 1 auto!important;background:#F8F8F8!important}#savepage-pageinfo-bar-button{flex:0 0 25px!important;background-color:#F8F8F8!important;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA8SURBVChTYwCC/0DsAGJgASBxkDycga4QQxxdAEMBDCBLYFUAAyQpIGgVCGAoxBCAAhRxrEZDAVCc4T8AbzkX8F/+uCwAAAAASUVORK5CYII=)!important;background-repeat:no-repeat!important;background-position:center center!important}#savepage-pageinfo-bar-button:hover{background-color:#E8E8E8!important}#savepage-pageinfo-bar-button:active{background-color:#D8D8D8!important}</style>  </div> </html>','text/html');
+        var pageinfodoc = parser.parseFromString('<html> <style id="savepage-pageinfo-bar-style" type="text/css">#savepage-pageinfo-bar-content,#savepage-pageinfo-bar-content *{all:initial!important}#savepage-pageinfo-bar-content,#savepage-pageinfo-bar-content *{font-family:"Segoe UI","Helvetica Neue",Ubuntu,Arial!important;font-size:12px!important;color:black!important;cursor:default!important;-moz-user-select:none!important;-webkit-user-select:none!important}#savepage-pageinfo-bar-content{display:flex!important;position:fixed!important;left:0!important;top:0!important;width:100%!important;height:25px!important;border-bottom:1px solid #E0E0E0!important;background:#F8F8F8!important;overflow:hidden!important;z-index:2147483645!important}#savepage-pageinfo-bar-spacer-1{flex:0 1 auto!important;background:#F8F8F8!important}#savepage-pageinfo-bar-link{flex:0 1 auto!important;padding:4px 0!important;background:#F8F8F8!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}#savepage-pageinfo-bar-link:hover{text-decoration:underline!important}#savepage-pageinfo-bar-spacer-2{flex:1 1 auto!important;background:#F8F8F8!important}#savepage-pageinfo-bar-datetime{flex:0 1000000 auto!important;min-width:0!important;padding:4px 0!important;background:#F8F8F8!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}#savepage-pageinfo-bar-spacer-3{flex:0 1 auto!important;background:#F8F8F8!important}#savepage-pageinfo-bar-button{flex:0 0 25px!important;background-color:#F8F8F8!important;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA8SURBVChTYwCC/0DsAGJgASBxkDycga4QQxxdAEMBDCBLYFUAAyQpIGgVCGAoxBCAAhRxrEZDAVCc4T8AbzkX8F/+uCwAAAAASUVORK5CYII=)!important;background-repeat:no-repeat!important;background-position:center center!important}#savepage-pageinfo-bar-button:hover{background-color:#E8E8E8!important}#savepage-pageinfo-bar-button:active{background-color:#D8D8D8!important}</style> <div id="savepage-pageinfo-bar-content"> <div id="savepage-pageinfo-bar-spacer-1">&nbsp;&nbsp;&nbsp;</div> <a id="savepage-pageinfo-bar-link" href="https://www.iban-rechner.de/" target="_blank">https://www.iban-rechner.de/</a> <div id="savepage-pageinfo-bar-spacer-2">&nbsp;&nbsp;&nbsp;</div> <div id="savepage-pageinfo-bar-datetime">12 May 2022&nbsp;&nbsp;&nbsp;12:59:19</div> <div id="savepage-pageinfo-bar-spacer-3">&nbsp;&nbsp;&nbsp;</div> <div id="savepage-pageinfo-bar-button"></div> </div> </html>','text/html');
         var container = document.createElement('div');
         container.setAttribute('id','savepage-pageinfo-bar-container');
         document.documentElement.appendChild(container);
@@ -218,7 +218,7 @@
                   <div class="liquidlanginsideleft"> 
                     <div class="liquidlanginsideright"> 
                       <div class="liquidlanginside"> 
-                        <p class="liquidlangnotopgap"> <a class="on">DE</a><span class="orangebullet"> ? </span><a href="https://www.ibancalculator.com/567.html" title="This page in English">EN</a><span class="orangebullet"> ? </span><a href="https://es.ibancalculator.com/567.html" title="Español">ES</a><span class="orangebullet"> ? </span><a href="https://it.ibancalculator.com/567.html" title="Italiano">IT</a><span class="orangebullet"> ? </span><a href="https://nl.ibancalculator.com/567.html" title="Deze pagina in het Nederlands">NL</a><span class="orangebullet"> ? </span><a href="https://pl.ibancalculator.com/567.html" title="Polski">PL</a><span class="orangebullet"> ? </span><a href="https://zh.ibancalculator.com/567.html" title="Mandarin (simplified)">??</a> 
+                        <p class="liquidlangnotopgap"> <a class="on">DE</a><span class="orangebullet"> &#8226; </span><a href="https://www.ibancalculator.com/567.html" title="This page in English">EN</a><span class="orangebullet"> &#8226; </span><a href="https://es.ibancalculator.com/567.html" title="Español">ES</a><span class="orangebullet"> &#8226; </span><a href="https://it.ibancalculator.com/567.html" title="Italiano">IT</a><span class="orangebullet"> &#8226; </span><a href="https://nl.ibancalculator.com/567.html" title="Deze pagina in het Nederlands">NL</a><span class="orangebullet"> &#8226; </span><a href="https://pl.ibancalculator.com/567.html" title="Polski">PL</a><span class="orangebullet"> &#8226; </span><a href="https://zh.ibancalculator.com/567.html" title="Mandarin (simplified)">&#8226;</a> 
                         </p> 
                         <p class="liquidlangnobottomgap"></p> 
                       </div> 
@@ -247,10 +247,10 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
                       <ul class="nav  navbar-nav">
                         <li>
-                          <a title="Kontonummer in IBAN umwandeln, Kontonummer prüfen oder BIC/BLZ suchen" data-savepage-href="iban_berechnen_bic.html" href="https://www.iban-rechner.de/iban_berechnen_bic.html" class="iban_berechnen_bic">Berechnen</a>
+                          <a title="Kontonummer in IBAN umwandeln, Kontonummer pr&#252;fen oder BIC/BLZ suchen" data-savepage-href="iban_berechnen_bic.html" href="https://www.iban-rechner.de/iban_berechnen_bic.html" class="iban_berechnen_bic">Berechnen</a>
                         </li>
                         <li>
-                          <a title="Wenn eine IBAN falsch berechnet wird, übernehmen wir bis zu 25 EUR des Schadens." data-savepage-href="guarantee.html" href="https://www.iban-rechner.de/guarantee.html" class="guarantee">Garantie</a>
+                          <a title="Wenn eine IBAN falsch berechnet wird, &#252;bernehmen wir bis zu 25 EUR des Schadens." data-savepage-href="guarantee.html" href="https://www.iban-rechner.de/guarantee.html" class="guarantee">Garantie</a>
                         </li>
                         <li>
                           <a title="oft gestellte Fragen" data-savepage-href="faq.html" href="https://www.iban-rechner.de/faq.html" class="faq">FAQ</a>
@@ -262,7 +262,7 @@
                           <a title="Welche Daten werden gespeichert, warum, und wie lange?" data-savepage-href="privacy.html" href="https://www.iban-rechner.de/privacy.html" class="privacy">Datenschutz</a>
                         </li>
                         <li>
-                          <a title="Güstige Kredite vergleichen" data-savepage-href="kreditvergleich.html" href="https://www.iban-rechner.de/kreditvergleich.html" class="iban_berechnen_bic">Kreditvergleich</a>
+                          <a title="G&#252;stige Kredite vergleichen" data-savepage-href="kreditvergleich.html" href="https://www.iban-rechner.de/kreditvergleich.html" class="iban_berechnen_bic">Kreditvergleich</a>
                         </li>
                       </ul> 
                     </div>
@@ -272,7 +272,7 @@
                     <div class="img-rounded" id="subnavrounded"> 
                       <div id="subNav"> 
                         <div class="subNavLinks"> 
-                          <div class="tx-subnav-pi1"> <a data-savepage-href="bic_und_iban.html" href="https://www.iban-rechner.de/bic_und_iban.html" title="Aus Kontonummer und Bankleitzahl (oder den entsprechenden nationalen Nummern) die internationale Kontonummer (IBAN) berechnen. Teilweise wird auch die BIC bestimmt." class="subNavLinks">IBAN berechnen</a> <span class="orangepipe">|</span> <a data-savepage-href="iban_validieren.html" href="https://www.iban-rechner.de/iban_validieren.html" title="Für einige Länder prüfen wir nicht nur die IBAN-Prüfziffern, sondern auch die in der IBAN enthaltene Bankleitzahl und Kontonummer." class="subNavLinks">IBAN prüfen</a> <span class="orangepipe">|</span> <a data-savepage-href="validate_account_no.html" href="https://www.iban-rechner.de/validate_account_no.html" title="Kontonummern auf die Korrektheit der eventuell enthaltenen Prüfziffern untersuchen." class="subNavLinks">Kontonummer</a> <span class="orangepipe">|</span> <a data-savepage-href="blz.html" href="https://www.iban-rechner.de/blz.html" title="Sie können entweder anhand von Bank und Stadt die Bankleitzahl (und BIC) bestimmen oder umgekehrt. Sie müssen dabei die Bank und die Stadt nicht vollständig angeben. Es ist auch möglich, entweder die Stadt oder den Banknamen ganz wegzulassen." class="subNavLinks">BLZ-/BIC-Suche</a> <span class="orangepipe">|</span> <a data-savepage-href="eu_ueberweisung_pdf.html" href="https://www.iban-rechner.de/eu_ueberweisung_pdf.html" title="" class="subNavLinks">EU-Überweisung</a> <span class="orangepipe">|</span> <a href="https://de.finance.yahoo.com/waehrungen/waehrungsrechner/#from=EUR;to=USD;amt=1" class="subNavLinks">Yahoo! Währungsrechner</a> 
+                          <div class="tx-subnav-pi1"> <a data-savepage-href="bic_und_iban.html" href="https://www.iban-rechner.de/bic_und_iban.html" title="Aus Kontonummer und Bankleitzahl (oder den entsprechenden nationalen Nummern) die internationale Kontonummer (IBAN) berechnen. Teilweise wird auch die BIC bestimmt." class="subNavLinks">IBAN berechnen</a> <span class="orangepipe">|</span> <a data-savepage-href="iban_validieren.html" href="https://www.iban-rechner.de/iban_validieren.html" title="F&#252;r einige L&#228;nder pr&#252;fen wir nicht nur die IBAN-Pr&#252;fziffern, sondern auch die in der IBAN enthaltene Bankleitzahl und Kontonummer." class="subNavLinks">IBAN pr&#252;fen</a> <span class="orangepipe">|</span> <a data-savepage-href="validate_account_no.html" href="https://www.iban-rechner.de/validate_account_no.html" title="Kontonummern auf die Korrektheit der eventuell enthaltenen Pr&#252;fziffern untersuchen." class="subNavLinks">Kontonummer</a> <span class="orangepipe">|</span> <a data-savepage-href="blz.html" href="https://www.iban-rechner.de/blz.html" title="Sie k&#246;nnen entweder anhand von Bank und Stadt die Bankleitzahl (und BIC) bestimmen oder umgekehrt. Sie m&#252;ssen dabei die Bank und die Stadt nicht vollst&#228;ndig angeben. Es ist auch m&#246;glich, entweder die Stadt oder den Banknamen ganz wegzulassen." class="subNavLinks">BLZ-/BIC-Suche</a> <span class="orangepipe">|</span> <a data-savepage-href="eu_ueberweisung_pdf.html" href="https://www.iban-rechner.de/eu_ueberweisung_pdf.html" title="" class="subNavLinks">EU-&#252;berweisung</a> <span class="orangepipe">|</span> <a href="https://de.finance.yahoo.com/waehrungen/waehrungsrechner/#from=EUR;to=USD;amt=1" class="subNavLinks">Yahoo! W&#228;hrungsrechner</a> 
                           </div> 
                         </div> 
                       </div> 
@@ -292,11 +292,11 @@
                 <!-- ctx. Production/http1_3, lang de, therefore ad D for /1058773/DE_DFP_160x600_tag--><br> 
                 <div id="theano_sky_2" data-track-content="" data-content-name="MSO-theano_sky_2"></div> 
                 <!-- D copy -->
-                <h2>Kostenloses IBAN-Validier-Widget für Ihre Website</h2>
+                <h2>Kostenloses IBAN-Validier-Widget f&#252;r Ihre Website</h2>
                 <div class="csc-textpic-text">
-                  <p>Um einen kostenlosen IBAN-Validierer in Ihre Website einzubinden, fügen Sie den folgenden HTML-Code in Ihre Seite ein:</p>
+                  <p>Um einen kostenlosen IBAN-Validierer in Ihre Website einzubinden, f&#252;gen Sie den folgenden HTML-Code in Ihre Seite ein:</p>
                 </div> 
-                <p style="background-color:lightblue;font-size:10px"> &lt;iframe src= "https://www.iban-rechner.de/widget.php" width="340" height="175"/&gt; </p> <button class="js-copy-widget-btn">In die Zwischenablage</button> <script data-savepage-type="text/javascript" type="text/plain">
+<button class="js-copy-widget-btn">In die Zwischenablage</button> <script data-savepage-type="text/javascript" type="text/plain">
                 </script> 
                 <h2>Profi-Version</h2>
                 <ul>
@@ -309,14 +309,14 @@
                   <li><b>Willkommens - Bonuspunkte</b> zum kostenlosen Ausprobieren.
                   </li>
                 </ul>
-                <p><a href="https://www.iban-bic.com/" target="_blank"><b>Anmeldung für Profi-Version...</b></a> 
+                <p><a href="https://www.iban-bic.com/" target="_blank"><b>Anmeldung f&#252;r Profi-Version...</b></a> 
                 </p> 
                 <p> </p> 
               </div> 
               <div class="col-md-10"> 
                 <div class="row row-eq-height"> 
                   <div class="col-md-6 img-rounded greybordernotleft"> 
-                    <h1>IBAN prüfen/ergänzen</h1>
+                    <h1>IBAN pr&#252;fen/erg&#228;nzen</h1>
 
 
 
@@ -332,11 +332,11 @@
   <input type="hidden"  name="_next" value="https://www.iban-rechner.de/iban_validieren.html">
 <br>
 <br clear="all">
-  <button type="submit"class="btn btn-primary" name="Action" value="IBAN prüfen und BIC-Code suchen" title=" IBAN prüfen und BIC-Code suchen ">IBAN prüfen und BIC-Code suchen</button>
+  <button type="submit"class="btn btn-primary" name="Action" value="IBAN pr&#252;fen und BIC-Code suchen" title=" IBAN pr&#252;fen und BIC-Code suchen ">IBAN pr&#252;fen und BIC-Code suchen</button>
 </td>
   <td width="12" rowspan="1"> </td>
 </tr>
-  <tr><td><p>Einzelne Stellen unbekannt? Geben Sie dafür Fragezeichen ein (Beispiel: DE12500?0?170648489890). Die IBAN wird dann automatisch ergänzt. </p></td></tr>
+  <tr><td><p>Einzelne Stellen unbekannt? Geben Sie daf&#252;r Fragezeichen ein (Beispiel: DE12500?0?170648489890). Die IBAN wird dann automatisch erg&#228;nzt. </p></td></tr>
 </tbody></table>
 </form>
 
@@ -353,7 +353,7 @@
                     <h1>IBAN berechnen</h1><br>
                     <div class="tx-intiban-pi1"> 
                       <form role="form" action="bic_und_iban.html" method="post">
-                        <p>Land:</p><span class="inText_ignore"><select name="tx_intiban_pi1[country]" size="1" onchange="this.form.submit();"><option value="VA"></option><option value="EG">Ägypten</option><option value="EG">Ägypten</option><option value="AL">Albanien</option><option value="AD">Andorra</option><option value="BE">Belgien</option><option value="BA">Bosnien und Herzegowina</option><option value="BG">Bulgarien</option><option value="DK">Dänemark</option><option value="DE" selected="">Deutschland</option><option value="EE">Estland</option><option value="FI">Finnland</option><option value="FR">Frankreich</option><option value="GE">Georgien</option><option value="GB">Großbritannien</option><option value="IE">Irland</option><option value="IS">Island</option><option value="IL">Israel</option><option value="IT">Italien</option><option value="JO">Jordanien</option><option value="KZ">Kasachstan</option><option value="XK">Kosovo</option><option value="HR">Kroatien</option><option value="LV">Lettland</option><option value="LB">Libanon</option><option value="LI">Liechtenstein</option><option value="LT">Litauen</option><option value="LU">Luxemburg</option><option value="MT">Malta</option><option value="MU">Mauritius</option><option value="MD">Moldawien</option><option value="MC">Monaco</option><option value="NL">Niederlande</option><option value="NO">Norwegen</option><option value="AT">Österreich</option><option value="PL">Polen</option><option value="PT">Portugal</option><option value="RO">Rumänien</option><option value="SM">San Marino</option><option value="SE">Schweden</option><option value="CH">Schweiz</option><option value="RS">Serbien</option><option value="SK">Slowakei</option><option value="SI">Slowenien</option><option value="ES">Spanien</option><option value="CZ">Tschechien</option><option value="TR">Türkei</option><option value="HU">Ungarn</option><option value="AE">Vereinigte Arabische Emirate</option><option value="BY">Weißrussland</option></select></span> <script data-savepage-type="text/javascript" type="text/plain" language="javascript">
+                        <p>Land:</p><span class="inText_ignore"><select name="tx_intiban_pi1[country]" size="1" onchange="this.form.submit();"><option value="VA"></option><option value="EG">&#228;gypten</option><option value="EG">&#228;gypten</option><option value="AL">Albanien</option><option value="AD">Andorra</option><option value="BE">Belgien</option><option value="BA">Bosnien und Herzegowina</option><option value="BG">Bulgarien</option><option value="DK">D&#228;nemark</option><option value="DE" selected="">Deutschland</option><option value="EE">Estland</option><option value="FI">Finnland</option><option value="FR">Frankreich</option><option value="GE">Georgien</option><option value="GB">Gro&#223;britannien</option><option value="IE">Irland</option><option value="IS">Island</option><option value="IL">Israel</option><option value="IT">Italien</option><option value="JO">Jordanien</option><option value="KZ">Kasachstan</option><option value="XK">Kosovo</option><option value="HR">Kroatien</option><option value="LV">Lettland</option><option value="LB">Libanon</option><option value="LI">Liechtenstein</option><option value="LT">Litauen</option><option value="LU">Luxemburg</option><option value="MT">Malta</option><option value="MU">Mauritius</option><option value="MD">Moldawien</option><option value="MC">Monaco</option><option value="NL">Niederlande</option><option value="NO">Norwegen</option><option value="AT">&#246;sterreich</option><option value="PL">Polen</option><option value="PT">Portugal</option><option value="RO">Rum&#228;nien</option><option value="SM">San Marino</option><option value="SE">Schweden</option><option value="CH">Schweiz</option><option value="RS">Serbien</option><option value="SK">Slowakei</option><option value="SI">Slowenien</option><option value="ES">Spanien</option><option value="CZ">Tschechien</option><option value="TR">T&#252;rkei</option><option value="HU">Ungarn</option><option value="AE">Vereinigte Arabische Emirate</option><option value="BY">Wei&#223;russland</option></select></span> <script data-savepage-type="text/javascript" type="text/plain" language="javascript">
                         </script> <noscript> <input type="submit" value="Go"/> </noscript><br>
                         <p><b><a href="http://de.ibancalculator.com/blz.html?L=" target="_top">Bankleitzahl</a></b>:
                         </p> <input type="text" size="22" name="tx_intiban_pi1[blz]" value=""> 
@@ -363,7 +363,7 @@
                       </form> 
                     </div> 
                     <h3>Korrektheits-Garantie: </h3>
-                    <p>Wenn Sie wegen eines Softwarefehlers zuviel bezahlen müssen, zahlen wir bis zu 25 EUR an Sie (<a data-savepage-href="contact.html" href="https://www.iban-rechner.de/contact.html">Details</a>)
+                    <p>Wenn Sie wegen eines Softwarefehlers zuviel bezahlen m&#252;ssen, zahlen wir bis zu 25 EUR an Sie (<a data-savepage-href="contact.html" href="https://www.iban-rechner.de/contact.html">Details</a>)
                     </p> 
                   </div> 
                 </div> 
@@ -377,14 +377,14 @@
                         <div class="carousel-inner">
                     
                           <div class="item active"--> 
-                    <h1>Der Nachteil von Auslandsüberweisungen mit Ihrer Bank</h1>
-                    <p> Bei Banküberweisungen ins Ausland können bis zu 5% an zusätzlichen, im Wechselkurs versteckten Kosten entstehen. <a href="https://wise.prf.hn/l/ryjlA9D" target="_blank">Wise, früher TransferWise</a> hingegen ist bis zu 5x günstiger. <a href="https://wise.prf.hn/l/ryjlA9D" target="_blank">Mehr erfahren.</a>
-                    </p> <a class="btn btn-secondary" href="https://wise.prf.hn/l/ryjlA9D" role="button">Geld überweisen</a> <a class="btn btn-secondary" href="https://wise.prf.hn/l/ryjlA9D" role="button">Geld empfangen</a><br> Die ersten 3 Überweisungen sind kostenlos, wenn Sie sich <a href="https://wise.prf.hn/l/ryjlA9D" target="_blank">hier</a> registrieren. <br> 
+                    <h1>Der Nachteil von Auslands&#252;berweisungen mit Ihrer Bank</h1>
+                    <p> Bei Bank&#252;berweisungen ins Ausland k&#246;nnen bis zu 5% an zus&#228;tzlichen, im Wechselkurs versteckten Kosten entstehen. <a href="https://wise.prf.hn/l/ryjlA9D" target="_blank">Wise, fr&#252;her TransferWise</a> hingegen ist bis zu 5x g&#252;nstiger. <a href="https://wise.prf.hn/l/ryjlA9D" target="_blank">Mehr erfahren.</a>
+                    </p> <a class="btn btn-secondary" href="https://wise.prf.hn/l/ryjlA9D" role="button">Geld &#252;berweisen</a> <a class="btn btn-secondary" href="https://wise.prf.hn/l/ryjlA9D" role="button">Geld empfangen</a><br> Die ersten 3 &#252;berweisungen sind kostenlos, wenn Sie sich <a href="https://wise.prf.hn/l/ryjlA9D" target="_blank">hier</a> registrieren. <br> 
                     <!--/div>
                     
                           <div class="item">
                       
-                        <h1>3 kostenlose Auslandsüberweisungen für Sie</h1><p>
+                        <h1>3 kostenlose Auslands&#252;berweisungen f&#252;r Sie</h1><p>
                     Profitieren Sie bei Auslands&uuml;berweisungen von einem besseren Wechselkurs und vermeiden Sie exorbitante Bankgeb&uuml;hren. CurrencyFair ist bis zu 8x g&uuml;nstiger als eine Bank. Au&szlig;erdem: 3 kostenlose &Uuml;berweisungen f&uuml;r Sie!
                      <a href="https://currencyfair.g6ww.net/c/1230117/501465/5170">Mehr erfahren...</a>
                     </p><a class="btn btn-info" href="https://currencyfair.g6ww.net/c/1230117/501465/5170" role="button">Geld senden</a>
@@ -405,12 +405,12 @@
                     <h1>Kontonummer validieren</h1>
                     <div class="tx-valKonto-pi1"> 
                       <form role="form" action="validate_account_no.html" method="post">
-                        <p>Land:</p> <span class="inText_ignore"><select name="tx_valKonto_pi1[country]" size="1" onchange="this.form.submit();"><option value="BE">Belgien</option><option value="BA">Bosnien und Herzegowina</option><option value="DE" selected="">Deutschland</option><option value="EE">Estland</option><option value="FI">Finnland</option><option value="FR">Frankreich</option><option value="GB">Großbritannien</option><option value="IE">Irland</option><option value="IT">Italien</option><option value="XK">Kosovo</option><option value="HR">Kroatien</option><option value="LI">Liechtenstein</option><option value="MC">Monaco</option><option value="NL">Niederlande</option><option value="NO">Norwegen</option><option value="AT">Österreich</option><option value="PT">Portugal</option><option value="SM">San Marino</option><option value="SE">Schweden</option><option value="CH">Schweiz</option><option value="RS">Serbien</option><option value="SK">Slowakei</option><option value="SI">Slowenien</option><option value="ES">Spanien</option><option value="CZ">Tschechien</option><option value="HU">Ungarn</option></select> </span><script data-savepage-type="text/javascript" type="text/plain" language="javascript">
+                        <p>Land:</p> <span class="inText_ignore"><select name="tx_valKonto_pi1[country]" size="1" onchange="this.form.submit();"><option value="BE">Belgien</option><option value="BA">Bosnien und Herzegowina</option><option value="DE" selected="">Deutschland</option><option value="EE">Estland</option><option value="FI">Finnland</option><option value="FR">Frankreich</option><option value="GB">Gro&#223;britannien</option><option value="IE">Irland</option><option value="IT">Italien</option><option value="XK">Kosovo</option><option value="HR">Kroatien</option><option value="LI">Liechtenstein</option><option value="MC">Monaco</option><option value="NL">Niederlande</option><option value="NO">Norwegen</option><option value="AT">&#246;sterreich</option><option value="PT">Portugal</option><option value="SM">San Marino</option><option value="SE">Schweden</option><option value="CH">Schweiz</option><option value="RS">Serbien</option><option value="SK">Slowakei</option><option value="SI">Slowenien</option><option value="ES">Spanien</option><option value="CZ">Tschechien</option><option value="HU">Ungarn</option></select> </span><script data-savepage-type="text/javascript" type="text/plain" language="javascript">
                         </script> <noscript> <input type="submit" value="Go"/> </noscript><br>
                         <p><b><a data-savepage-href="blz.html?&no_cache=1" href="https://www.iban-rechner.de/blz.html?&no_cache=1">Bankleitzahl</a>:</b>
                         </p> <input type="text" size="22" name="tx_valKonto_pi1[blz]" value=""><br>
                         <p><b>Kontonummer:</b>
-                        </p> <input type="text" size="22" name="tx_valKonto_pi1[kontonr]" value=""><br> <input type="hidden" name="tx_valKonto_pi1[fi]" value="fi"> <input type="hidden" name="no_cache" value="1"> <br> <button type="submit" class="btn btn-primary" name="tx_valKonto_pi1[a]" value="Kontonummer prüfen" title=" Kontonummer prüfen ">Kontonummer prüfen</button> 
+                        </p> <input type="text" size="22" name="tx_valKonto_pi1[kontonr]" value=""><br> <input type="hidden" name="tx_valKonto_pi1[fi]" value="fi"> <input type="hidden" name="no_cache" value="1"> <br> <button type="submit" class="btn btn-primary" name="tx_valKonto_pi1[a]" value="Kontonummer pr&#252;fen" title=" Kontonummer pr&#252;fen ">Kontonummer pr&#252;fen</button> 
                       </form> 
                     </div> 
                   </div> 
@@ -419,8 +419,8 @@
                     <div class="tx-blz-pi1"> 
                       <form role="form" action="blz.html" method="post"> 
                         <p>Land:</p> <span class="inText_ignore"> <select name="tx_blz_pi1[country]" size="1">
-<option value="all" selected="">alle</option><option value="BE">Belgien</option><option value="BG">Bulgarien</option><option value="DE">Deutschland</option><option value="DK">Dänemark</option><option value="EE">Estland</option><option value="FI">Finnland</option><option value="FR">Frankreich</option><option value="GB">Großbritannien</option><option value="GI">Gibraltar</option><option value="GR">Griechenland</option><option value="IE">Irland</option><option value="IS">Island</option><option value="IT">Italien</option><option value="LI">Liechtenstein</option><option value="LT">Litauen</option><option value="LU">Luxemburg</option><option value="LV">Lettland</option><option value="MC">Monaco</option><option value="MT">Malta</option><option value="NL">Niederlande</option><option value="NO">Norwegen</option><option value="AT">Österreich</option><option value="PL">Polen</option><option value="PT">Portugal</option><option value="RO">Rumänien</option><option value="SE">Schweden</option><option value="CH">Schweiz</option><option value="SI">Slowenien</option><option value="SK">Slowakei</option><option value="ES">Spanien</option><option value="CZ">Tschechien</option><option value="HU">Ungarn</option><option value="CY">Zypern</option></select></span><br>
-                        <p><i>Bitte mindestens ein Suchfeld ausfüllen:</i>
+<option value="all" selected="">alle</option><option value="BE">Belgien</option><option value="BG">Bulgarien</option><option value="DE">Deutschland</option><option value="DK">D&#228;nemark</option><option value="EE">Estland</option><option value="FI">Finnland</option><option value="FR">Frankreich</option><option value="GB">Gro&#223;britannien</option><option value="GI">Gibraltar</option><option value="GR">Griechenland</option><option value="IE">Irland</option><option value="IS">Island</option><option value="IT">Italien</option><option value="LI">Liechtenstein</option><option value="LT">Litauen</option><option value="LU">Luxemburg</option><option value="LV">Lettland</option><option value="MC">Monaco</option><option value="MT">Malta</option><option value="NL">Niederlande</option><option value="NO">Norwegen</option><option value="AT">&#246;sterreich</option><option value="PL">Polen</option><option value="PT">Portugal</option><option value="RO">Rum&#228;nien</option><option value="SE">Schweden</option><option value="CH">Schweiz</option><option value="SI">Slowenien</option><option value="SK">Slowakei</option><option value="ES">Spanien</option><option value="CZ">Tschechien</option><option value="HU">Ungarn</option><option value="CY">Zypern</option></select></span><br>
+                        <p><i>Bitte mindestens ein Suchfeld ausf&#252;llen:</i>
                         </p>
                         <p>Suchbegriffe (Name der Bank etc.)</p> <input type="text" size="22" name="tx_blz_pi1[searchterms]" value="">
                         <p> Bankleitzahl oder BIC</p> <input type="text" size="22" name="tx_blz_pi1[bankcode]" value=""><br> <br> <input type="hidden" name="tx_blz_pi1[fi]" value="fi"> <input type="hidden" name="no_cache" value="1"> <button type="submit" class="btn btn-primary" name="Action" value="Suchen" title=" Suchen ">Suchen</button><br>
